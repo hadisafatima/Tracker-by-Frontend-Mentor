@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Inter:wght@200&display=swap');
+
+.whole {
+    display: flex;
+    /* background-color: white; */
+    border-radius: 12px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
+    width: 35vw;
+    margin: 8vw 35vw;
+    height: 45vh;
+    position: relative;
+    top: 13vh;
+}
+
+.result {
+    background: linear-gradient(to bottom, hsl(252, 100%, 67%) 0%, hsl(252, 100%, 67%) 40%, hsl(241, 81%, 54%) 60%, hsl(241, 81%, 54%) 100%);
+    border-radius: 12px;
+    width: 55%;
+    padding-top: 1vh;
+}
+
+.heading {
+    text-align: center;
+    color: hsl(241, 100%, 89%);
+    font-size: 1vw;
+}
+
+.circle {
+    background: linear-gradient(to bottom, hsla(256, 72%, 46%, 1) 0%, hsla(256, 72%, 46%, 1) 60%, hsla(241, 72%, 46%, 0) 100%, hsla(241, 72%, 46%, 0) 2%);
+    /* first 2 colors must be same but % of which they occupy the background ought to different */
+    width: 8vw;
+    height: 15vh;
+    border-radius: 50%;
+    margin: 4vh auto;
+    text-align: center;
+}
+
+.circle p {
+    text-align: center;
+    color: hsl(241, 100%, 89%);
+    font-family: 'Inter', sans-serif;
+}
+
+.circle p .marks {
+    display: block;
+    color: white;
+    font-size: 3vw;
+    font-weight: 2;
+    padding-top: 2vh;
+    font-family: 'Inter', sans-serif;
+}
+
+.result h2 {
+    text-align: center;
+    color: white;
+    font-size: 1.2vw;
+    font-family: 'Inter', sans-serif;
+}
+
+.result .text {
+    font-size: 1vw;
+    padding: 1.3vh 2.3vw;
+    text-align: center;
+    color: hsl(241, 100%, 89%);
+    font-family: 'Inter', sans-serif;
+}
+
+.remarks {
+    padding: 1vh 2vw;
+    width: 40%;
+}
+
+.sum {
+    border-radius: 5px;
+    height: 5vh;
+    margin: 1vh 0;
+    width: 100%;
+}
+
+.summary {
+    text-align: left;
+    margin: 2vh 0vw;
+    font-family: 'Inter', sans-serif;
+}
+
+.reaction {
+    background-color: hsla(0, 100%, 67%, 0.096);
+    color: hsl(0, 100%, 67%);
+    font-family: 'Inter', sans-serif;
+}
+
+.memory {
+    background-color: hsla(39, 100%, 56%, 0.084);
+    color:  hsl(39, 100%, 56%);
+    font-family: 'Inter', sans-serif;
+}
+
+.verbal {
+    background-color: hsla(166, 100%, 37%, 0.11);
+    color: hsl(166, 100%, 37%);
+    font-family: 'Inter', sans-serif;
+}
+
+.visual {
+    background-color: hsla(234, 85%, 45%, 0.078);
+    color: hsl(234, 85%, 45%);
+    font-family: 'Inter', sans-serif;
+}
+
+.sum .image{
+    position: relative;
+    top: 1.5vh;
+    left: 0.5vw;
+}
+
+.sum .title{
+    position: relative;
+    top: -2.9vh;
+    left: 2.2vw;
+}
+
+.sum .side{
+	position: relative;
+	top: -6.9vh;
+	left: 9vw;
+    color:  hsla(224, 30%, 27%, 0.279);
+
+}
+
+.sum .side span{
+    color: hsl(224, 30%, 27%);
+}
+
+.continue{
+    background-color: hsl(224, 30%, 27%) ;
+    width: 100%;
+    border-radius: 24px;
+    height: 6vh;
+    text-align: center;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+.continue p{
+    padding-top: 2vh;
+}
+
+@media (max-width: 375px) {
+    .whole {
+        display: grid;
+        margin: -3vh 2.6vw;
+        box-shadow: none;
+        width: 100%;
+        top: 0vh;
+    }
+
+    .result {
+        width: 95%;
+        padding-top: 2vh;
+        border-radius: 23px;
+    }
+
+    .heading {
+        font-size: 4vw;
+    }
+
+    .circle {
+        width: 30vw;
+    }
+
+    .circle p{
+        font-size: 4vw;
+    }
+
+    .circle p .marks{
+        font-size: 8vw;
+        padding-top: 3.5vh;
+    }
+
+    .result h2{
+        font-size: 6.2vw;
+    }
+
+    .result .text {
+        font-size: 5.6vw;
+        padding: 1.3vh 4.5vw;
+    }
+
+    .remarks {
+        padding: 2vh 2vw;
+        width: 90%;
+    }
+
+    .summary {
+        margin: 2vh 2vw;
+        font-size: 8vw;
+    }
+
+    .sum .image{
+        left: 2.5vw;
+    }
+
+    .sum .side{
+        left: 64vw;
+        top: -7.9vh;
+    }
+
+    .sum .title {
+        left: 10vw;
+        top: -3.5vh;
+    }
+
+    .attribution {
+        position: relative;
+        top: 56vh;
+    }
+}
